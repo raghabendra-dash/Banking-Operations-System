@@ -2,7 +2,7 @@
 
 ### Description
 
-This is an app that help access the most basic financial services like transfers, savings, payments, loans and thus enabling seamless banking experience.A simple fintech application that allows users to perform basic financial operations like wallet funding, transfers, withdrawals, and viewing transaction history for a seamless banking experience.
+This is an server system that help access the most basic financial services like transfers, savings, payments, loans and thus enabling seamless banking experience.
 
 ---
 
