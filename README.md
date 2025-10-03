@@ -1,4 +1,4 @@
-## 🏦 Financial Operation System 💵
+## 🏦 Fintech Operation System 💵
 
 ### Description
 
