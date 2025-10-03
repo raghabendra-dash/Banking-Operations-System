@@ -1,27 +1,27 @@
-# Project Name: Fintech
+## 🏦 Financial Operation System 💵
 
-## Description
+### Description
 
 This is an app that help access the most basic financial services like transfers, savings, payments, loans and thus enabling seamless banking experience.A simple fintech application that allows users to perform basic financial operations like wallet funding, transfers, withdrawals, and viewing transaction history for a seamless banking experience.
 
 ---
 
-##### Notion Documentation Link
+### Notion Documentation Link
 
-## _[View Documentation]()_
+> [View Documentation](https://banking-operation-system.notion.site/Fintech-System-Documentation-281cfd66164b804fa593dabd68c14b2a)
 
-#### Project setup
+### Project setup
 
 Follow the steps highlighted below to get the application running on your local computer.
 
-## Prerequiste
+### Prerequiste
 
     * Ensure you have `Node` with version >=14 installed.
     * You have a text editor (preferably Vscode) installed on your computer
     * MongoDB
     * Postman (to test the APIs)
 
-## Steps
+### Steps
 
     1. Clone the repository into your computer. Run command `git clone `
     2. Open the project folder with your desire code editor
@@ -39,7 +39,7 @@ If you encounter any issues while doing any of the above commands, kindly see th
 
 ---
 
-## Features
+### Features
 
 - ✔️ The application is responsible for creating new Admin and User
 - ✔️ Customer cannot create another user account
@@ -67,9 +67,9 @@ If you encounter any issues while doing any of the above commands, kindly see th
 
 ---
 
-#### My API Endpoints
+### My API Endpoints
 
-##### Register new user
+#### Register new user
 
 > POST ⇒ {{url}}/users/signup
 > **Example requestbody:**
@@ -95,7 +95,7 @@ If you encounter any issues while doing any of the above commands, kindly see th
 
 <br>
 
-##### Login user
+#### Login user
 
 POST ⇒ {{url}}/users/login
 **Example requestbody:**
@@ -119,7 +119,7 @@ POST ⇒ {{url}}/users/login
 
 <br>
 
-##### Fund your wallet
+#### Fund your wallet
 
 POST ⇒ {{url}}/transactions/fund-wallet
 Authorization: Bearer {{token}}
@@ -142,7 +142,7 @@ Authorization: Bearer {{token}}
 
 <br>
 
-##### Transfer funds to another wallet
+#### Transfer funds to another wallet
 
 POST ⇒ {{url}}/transactions
 Authorization: Bearer {{token}}
@@ -168,7 +168,7 @@ Authorization: Bearer {{token}}
 
 <br>
 
-##### View balance in your wallet
+#### View balance in your wallet
 
 GET ⇒ {{url}}/transactions/balance
 Authorization: Bearer {{token}}
@@ -184,7 +184,7 @@ Authorization: Bearer {{token}}
 
 <br>
 
-##### View transaction history
+#### View transaction history
 
 GET ⇒ {{URL}}/transaction/transaction_history
 Authorization: Bearer {{token}}
@@ -246,7 +246,7 @@ Authorization: Bearer {{token}}
 
 <br>
 
-##### View transaction details
+#### View transaction details
 
 GET ⇒ {{url}}/transactions/:transactionId
 Authorization: Bearer {{token}}
@@ -276,7 +276,7 @@ Authorization: Bearer {{token}}
 
 <br>
 
-##### View total amount credited
+#### View total amount credited
 
 GET ⇒ {{url}}/transactions/summary/credited
 Authorization: Bearer {{token}}
@@ -292,25 +292,30 @@ Authorization: Bearer {{token}}
 
 ---
 
-# Getting Started
+## Getting Started
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+```bash
+npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm run build`
+```bash
+npm run build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles Node in production mode and optimizes the build for the best performance.
 
-### `npm run lint`
-
-Checks if files obeys all Eslint set rules properly
+```bash
+npm run lint
+```
+**Happy Banking! 🚀**
