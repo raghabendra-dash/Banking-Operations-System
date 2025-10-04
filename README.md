@@ -8,7 +8,8 @@ This is an server system that help access the most basic financial services like
 
 ### Notion Documentation Link
 
-> [View Documentation](https://banking-operation-system.notion.site/Fintech-System-Documentation-281cfd66164b804fa593dabd68c14b2a)
+> [View Documentation](https://tinyurl.com/22taw27e)
+---
 
 ### Project setup
 
